@@ -19,10 +19,8 @@ class Student
        grade TEXT
        )
        SQL
-   DB[:conn].execute(sql)
+   DB[:conn].execute(table_check_sql)
  end
-
-  def self.create_table
 
 
 
